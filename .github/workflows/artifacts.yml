@@ -34,4 +34,4 @@ jobs:
          shell: bash
          run: 
             value = `cat test.txt`
-            echo $value
+            echo "$value"
