@@ -32,6 +32,6 @@ jobs:
             name: testing
        - name: Print Result
          shell: bash
-         run: 
+         run: |
             value = `cat test.txt`
             echo "$value"
